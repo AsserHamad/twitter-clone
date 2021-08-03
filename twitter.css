@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container {
+    background-color: black;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+
+.left {
+    width: 23.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.item-container {
+    margin: 0 0 2vh 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 2vw;
+    height: 2vw;
+    filter: brightness(0) invert(1);
+}
